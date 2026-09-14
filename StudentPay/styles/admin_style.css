@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #0d3b66, #001e3d, #0353a4);
+    background-color: #f1f5f9;
+    color: #334155;
+    padding: 30px 20px;
+}
+
+.admin-container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.admin-header-card {
+    background: rgb(69, 69, 202);
+    color: white;
+    padding: 25px 35px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.admin-info {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.admin-icon {
+    font-size: 38px;
+    background: rgba(255, 255, 255, 0.1);
+    width: 65px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    border: 1px solid black;
+}
+
+.admin-text h1 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.admin-badge {
+    background: #3b82f6;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.btn-logout {
+    background: #ef4444;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.btn-logout:hover {
+    background: #dc2626;
+}
+
+
+.card {
+    background: white;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.card-header {
+    background: #a1d0e9;
+    padding: 20px 25px;
+    border-bottom: 1px solid #186ad4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #0f1728;
+}
+
+
+.filter-form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.filter-form input[type="text"], 
+.filter-form select {
+    padding: 9px 15px;
+    border: 1px solid #3a8df2;
+    border-radius: 6px;
+    font-size: 14px;
+    min-width: 220px;
+}
+
+.filter-form input[type="text"]:focus, 
+.filter-form select:focus {
+    border-color: #3b82f6;
+}
+
+.btn-action {
+    background: #3b82f6;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.btn-action:hover { 
+    background: #2563eb; 
+}
+
+.btn-clear {
+    background: #e2e8f0;
+    color: #475569;
+    text-decoration: none;
+    padding: 9px 15px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.btn-clear:hover { 
+    background: #cbd5e1;
+ }
+
+
+.table-wrapper {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px 25px;
+    text-align: left;
+    font-size: 14px;
+}
+
+th {
+    background-color: whitesmoke;
+    color: black;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+td {
+    border-bottom: 1px solid #f1f5f9;
+    color: black;
+}
+
+tr:hover td {
+     background-color: #f8fafc; 
+}
+
+.text-amount { 
+font-weight: 600; 
+color: green; 
+}
+
+.btn-remove {
+    background: #fef2f2;
+    color: #ef4444;
+    border: 1px solid #fecaca;
+    padding: 6px 12px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.btn-remove:hover {
+    background: #ef4444;
+    color: white;
+}

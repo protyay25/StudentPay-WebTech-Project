@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #0d3b66, #001e3d, #0353a4);
+    background-color: #f0f4f8; 
+    color: #334155;
+    padding: 40px 20px;
+}
+
+.dashboard-container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(93, 230, 157);
+    padding: 20px 30px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+.profile-details {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+.profile-avatar {
+    width: 55px;
+    height: 55px;
+    background: #e0e7ff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.profile-text h2 {
+    font-size: 20px;
+    color: #0f172a;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.badge {
+    background: #f1f5f9;
+    color: #475569;
+    padding: 4px 15px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    border: 1px solid #e2e8f0;
+}
+
+.btn-logout {
+    background: #ef4444;
+    color: white;
+    padding: 9px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.btn-logout:hover {
+    background: #dc2626;
+}
+
+.alert {
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.alert-success { 
+    background: #dcfce7; 
+    color: green; 
+    border: 1px solid #bbf7d0; 
+}
+.alert-danger { 
+    background: #fee2e2; 
+    color: #991b1b; 
+    border: 1px solid #fecaca; 
+}
+
+
+.balance-section {
+    background: #d0bedb;
+    padding: 25px 30px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    border: 3px solid #3b82f6;
+}
+
+.balance-title {
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 5px;
+}
+
+.balance-amount {
+    font-size: 32px;
+    font-weight: 700;
+    color: black;
+}
+
+.card {
+    background: whitesmoke;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+
+.card-header {
+    background: #a3c2e1;
+    padding: 18px 25px;
+    font-weight: 600;
+    color: #0f172a;
+    font-size: 16px;
+}
+
+.card-body { 
+    padding: 25px; 
+}
+.card-body.no-padding { 
+    padding: 0; 
+}
+
+
+.action-form {
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.input-group label {
+    font-size: 13px;
+    font-weight: 600;
+    color: black;
+}
+
+.input-group input, .input-group select {
+    padding: 10px 14px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    color: black;
+    background: #f8fafc;
+
+}
+
+.input-group input:focus, .input-group select:focus {
+    border-color: #3b82f6;
+    background: white;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.btn-submit {
+    background: #0f172a;
+    color: white;
+    border: none;
+    padding: 11px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.btn-submit:hover { 
+    background: #334155; 
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 16px 25px;
+    text-align: left;
+    font-size: 14px;
+}
+
+th {
+    background-color: #bed5b6;
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-bottom: 2px solid #e2e8f0;
+}
+
+td {
+    border-bottom: 1px solid #f1f5f9;
+    color: #334155;
+}
+
+tr:last-child td { 
+    border-bottom: none; 
+}
+tr:hover td { 
+    background-color: #f8fafc; 
+}
+
+.text-amount { 
+    font-weight: 600; color: #0f172a; 
+}
+.text-center { 
+    text-align: center; 
+}
+
+.btn-pay {
+    background: green;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.btn-pay:hover { 
+    background: green;
+ }
